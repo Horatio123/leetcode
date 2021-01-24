@@ -3,6 +3,7 @@ package org.beiganshan;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+import java.util.List;
 
 /**
  * Unit test for simple App.
@@ -41,5 +42,15 @@ public class AppTest
 
         String[] strs1 = new String[]{"dog","racecar","car"};
         System.out.println(longestCommonPrefix_14.longestCommonPrefix(strs));
+    }
+
+    @Test
+    public void test_GenerateParentheses_22() {
+        GenerateParentheses_22 generateParentheses_22 = new GenerateParentheses_22();
+        List<String> ll = generateParentheses_22.generateParenthesis(5);
+        for (String l: ll) {
+            System.out.println(l);
+        }
+
     }
 }
