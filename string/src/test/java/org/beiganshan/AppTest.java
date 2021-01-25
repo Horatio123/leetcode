@@ -53,4 +53,16 @@ public class AppTest
         }
 
     }
+
+    @Test
+    public void test_TwoSum_1() {
+        TwoSum_1 twoSum_1 = new TwoSum_1();
+        int[] nums1 = {2,7,11,15};
+        int[] nums2 = {3,3};
+        int[] res;
+        res = twoSum_1.twoSum(nums2, 6);
+        for (int r: res) {
+            System.out.println(r);
+        }
+    }
 }
