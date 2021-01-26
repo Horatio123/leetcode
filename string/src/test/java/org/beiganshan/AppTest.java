@@ -65,4 +65,17 @@ public class AppTest
             System.out.println(r);
         }
     }
+
+    @Test
+    public void test_InvalidTransactions_1169() {
+        String[] strs = {"alice,20,800,mtv","alice,80,1200,beijing"};
+
+        InvalidTransactions_1169 invalidTransactions_1169 = new InvalidTransactions_1169();
+
+        List<String> ll = invalidTransactions_1169.invalidTransactions(strs);
+
+        for (String s: ll) {
+            System.out.println(s);
+        }
+    }
 }
