@@ -78,4 +78,28 @@ public class AppTest
             System.out.println(s);
         }
     }
+
+    @Test
+    public void test_ReverseWords_557() {
+        ReverseWords_557 reverseWords_557 = new ReverseWords_557();
+
+        String ss = "Let's take LeetCode contest";
+
+        System.out.println(reverseWords_557.reverseWords(ss));
+    }
+
+    @Test
+    public void test_TransposeMatrix_867() {
+        TransposeMatrix_867 transposeMatrix_867 = new TransposeMatrix_867();
+        int[][] A = {{1,2,3},{4,5,6},{7,8,9}};
+        int[][] B = transposeMatrix_867.transpose(A);
+
+        for (int[] ints : B) {
+            for (int j = 0; j < B[0].length; j++) {
+                System.out.print(ints[j]);
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
 }
