@@ -102,4 +102,12 @@ public class AppTest
             System.out.println();
         }
     }
+
+    @Test
+    public void test_TaskScheduler_621() {
+        TaskScheduler_621 taskScheduler_621 = new TaskScheduler_621();
+        char[]  tasks = {'A', 'A', 'A', 'B', 'B', 'B'};
+        System.out.println(taskScheduler_621.leastInterval(tasks, 2));
+    }
+
 }
