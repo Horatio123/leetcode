@@ -110,4 +110,17 @@ public class AppTest
         System.out.println(taskScheduler_621.leastInterval(tasks, 2));
     }
 
+    @Test
+    public void test_MinStack_155() {
+        MinStack_155 minStack = new MinStack_155();
+        minStack.push(-2);
+        minStack.push(0);
+        minStack.push(-3);
+        System.out.println(minStack.getMin()); // return -3
+        minStack.pop();
+        System.out.println(minStack.top());    // return 0
+        System.out.println(minStack.getMin()); // return -2
+
+    }
+
 }
