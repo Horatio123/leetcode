@@ -123,4 +123,15 @@ public class AppTest
 
     }
 
+    @Test
+    public void test_validParenthesisString_678() {
+        //String s = "(())((())()()(*)(*()(())())())()()((()())((()))(*";
+        //"**((*"
+        String s = "()*()(()(*()(((())()()())*))()*()(*)(((*))(())(())((*()*(()(())()*(((*(**))((())*)(((()()))(())()))";
+        //"*(****(*((**(*****"
+        ValidParenthesisString_678 validParenthesisString_678 = new ValidParenthesisString_678();
+        System.out.println(validParenthesisString_678.checkValidString(s));
+
+    }
+
 }
