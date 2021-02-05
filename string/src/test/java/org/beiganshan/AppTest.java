@@ -3,6 +3,7 @@ package org.beiganshan;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -132,6 +133,30 @@ public class AppTest
         ValidParenthesisString_678 validParenthesisString_678 = new ValidParenthesisString_678();
         System.out.println(validParenthesisString_678.checkValidString(s));
 
+    }
+
+    @Test
+    public void test_PalindromeLinkedList_234() {
+        PalindromeLinkedList_234 palindromeLinkedList_234 = new PalindromeLinkedList_234();
+        ListNode l1 = new ListNode(1);
+        ListNode l2 = new ListNode(2, l1);
+        ListNode l3 = new ListNode(1, l2);
+        System.out.println(palindromeLinkedList_234.isPalindrome(l3));
+    }
+
+    @Test
+    public void test_BrickWall_554() {
+        BrickWall_554 brickWall_554 = new BrickWall_554();
+
+        List<Integer> bricks1 = Arrays.asList(1, 2, 2, 1);
+        List<Integer> bricks2 = Arrays.asList(3,1,2);
+        List<Integer> bricks3 = Arrays.asList(1,3,2);
+        List<Integer> bricks4 = Arrays.asList(2,4);
+        List<Integer> bricks5 = Arrays.asList(3,1,2);
+        List<Integer> bricks6 = Arrays.asList(1,3,1,1);
+        List<List<Integer>> wall = Arrays.asList(bricks1, bricks2, bricks3, bricks4, bricks5, bricks6);
+
+        System.out.println(brickWall_554.leastBricks(wall));
     }
 
 }
