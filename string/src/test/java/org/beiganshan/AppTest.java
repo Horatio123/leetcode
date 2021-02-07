@@ -159,4 +159,14 @@ public class AppTest
         System.out.println(brickWall_554.leastBricks(wall));
     }
 
+    @Test
+    public void test_BestTime2BuySellStock() {
+        BestTime2BuySellStock_121 bestTime2BuySellStock_121 = new BestTime2BuySellStock_121();
+        BestTime2BuySellStock_122 bestTime2BuySellStock_122 = new BestTime2BuySellStock_122();
+        int[] prices = {7,1,5,3,6,4};
+        int[] prices2 = {7,6,4,3,1};
+        System.out.println(bestTime2BuySellStock_121.maxProfit(prices2));
+        System.out.println(bestTime2BuySellStock_122.maxProfit(prices));
+    }
+
 }
