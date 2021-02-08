@@ -169,4 +169,12 @@ public class AppTest
         System.out.println(bestTime2BuySellStock_122.maxProfit(prices));
     }
 
+    @Test
+    public void test_LastStoneWeight_1406() {
+        int[] ss = {3, 7, 1, 9, 4};
+        LastStoneWeight_1406 lastStoneWeight_1406 = new LastStoneWeight_1406();
+        System.out.println(lastStoneWeight_1406.lastStoneWeight(ss));
+
+    }
+
 }
