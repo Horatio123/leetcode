@@ -177,4 +177,12 @@ public class AppTest
 
     }
 
+    @Test
+    public void test_ReorganizeString_767() {
+        String s = "vvvlo";
+        ReorganizeString_767 reorganizeString_767 = new ReorganizeString_767();
+        System.out.println(reorganizeString_767.reorganizeString(s));
+
+    }
+
 }
