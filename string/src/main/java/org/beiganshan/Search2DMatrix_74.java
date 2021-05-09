@@ -1,5 +1,15 @@
 package org.beiganshan;
+/*
+Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
 
+Integers in each row are sorted from left to right.
+The first integer of each row is greater than the last integer of the previous row.
+
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/search-a-2d-matrix
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ */
 public class Search2DMatrix_74 {
     public boolean searchMatrix(int[][] matrix, int target) {
         if (target < matrix[0][0] || target > matrix[matrix.length - 1][matrix[0].length - 1]) {

@@ -1,5 +1,15 @@
 package org.beiganshan;
+/*
+Given a 2D integer array matrix, return the transpose of matrix.
 
+The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
+
+
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/transpose-matrix
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ */
 public class TransposeMatrix_867 {
     public int[][] transpose(int[][] A) {
         int row = A.length;

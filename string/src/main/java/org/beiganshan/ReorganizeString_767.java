@@ -1,5 +1,23 @@
 package org.beiganshan;
+/*
+Given a string S, check if the letters can be rearranged so that two characters that are adjacent to each other are not the same.
 
+If possible, output any possible result.  If not possible, return the empty string.
+
+Example 1:
+
+Input: S = "aab"
+Output: "aba"
+Example 2:
+
+Input: S = "aaab"
+Output: ""
+
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/reorganize-string
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ */
 public class ReorganizeString_767 {
     public String reorganizeString(String S) {
         int[] charCount = new int[26];

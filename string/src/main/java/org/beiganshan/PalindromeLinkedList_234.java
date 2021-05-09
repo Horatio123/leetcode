@@ -1,5 +1,8 @@
 package org.beiganshan;
+/*
+Given the head of a singly linked list, return true if it is a palindrome.
 
+ */
 
 import java.util.Stack;
 

@@ -1,5 +1,18 @@
 package org.beiganshan;
 
+/*
+Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
+
+If target is not found in the array, return [-1, -1].
+
+Follow up: Could you write an algorithm with O(log n) runtime complexity?
+
+
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ */
 public class FindFirstLastPositionElementInSortedArray_34 {
     public int[] searchRange(int[] nums, int target) {
         int[] res;

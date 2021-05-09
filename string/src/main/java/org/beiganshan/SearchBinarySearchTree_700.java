@@ -1,5 +1,15 @@
 package org.beiganshan;
+/*
+You are given the root of a binary search tree (BST) and an integer val.
 
+Find the node in the BST that the node's value equals val and return the subtree rooted with that node. If such a node does not exist, return null.
+
+
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/search-in-a-binary-search-tree
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ */
 public class SearchBinarySearchTree_700 {
     public TreeNode searchBST(TreeNode root, int val) {
         TreeNode res = null;
